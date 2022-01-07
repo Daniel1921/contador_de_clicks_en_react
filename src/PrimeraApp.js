@@ -15,8 +15,8 @@ const PrimeraApp = ( {saludo, subtitulo} ) => {
 
 
     return ( <>
-                <h1> {saludo} </h1>
-                <h3>{subtitulo}</h3>
+                <h1> {saludo} !</h1>
+                <p>{subtitulo}</p>
                 {/* <pre>{JSON.stringify(x, null, 3)}</pre> */}
              </>
             );

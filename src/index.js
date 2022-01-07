@@ -8,4 +8,5 @@ const divRoot = document.querySelector('#root');
 // <PrimeraApp saludo="Hello Earth"/>  
 
 ReactDOM.render(<CounterApp value={0}/>, divRoot);
+// ReactDOM.render(<PrimeraApp saludo="hola, soy daniel"/>, divRoot);
 
